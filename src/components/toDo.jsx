@@ -1,7 +1,7 @@
 import React, { Component } from "react";
+import { paginate } from "../utils/paginate";
 import ToDoTable from "./toDoTable";
 import Pagination from "./common/pagination";
-import { paginate } from "../utils/paginate";
 
 class ToDo extends Component {
   state = {
